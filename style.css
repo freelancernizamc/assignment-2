@@ -144,8 +144,8 @@ nav ul li a{
     padding-right: 100px;
 }
 .love-feature-img img{
-    width: 600px;
-    height: 1059px;
+    width: 500px;
+    height: 659px;
     border-radius: 5px;
     margin-right: 20px;
 }
@@ -153,5 +153,43 @@ nav ul li a{
     font-size: 45px;
     font-weight: 700;
     color: #131313;
+    border-left: 2px solid var(--main-color);
+    padding-left: 10px;
     padding-bottom: 20px;
+}
+.text1{
+    width: 95%;
+    background-color: #FFFFFF;
+    padding: 10px 0 20px 5px;
+    border-radius: 5px;
+}
+.text2{
+    padding: 5px 0 20px 5px;
+}
+.love-feature-btn .btn{
+    position: absolute;
+    width: 242px;
+    height: 180px;
+    left: 780px;
+    top: 2720px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+    
+.btn span{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+/* Love-feature-end */
+/* Facts section start */
+.facts{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.facts h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
 }
