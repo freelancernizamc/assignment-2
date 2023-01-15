@@ -26,7 +26,7 @@ body{
 /* Header CSS start */
 header{
     width: 100%;
-    max-width: 1140px;
+    max-width: 1150px;
     margin: auto;
     padding-top: 20px;
     background-color: #FFF4E7;
@@ -68,23 +68,23 @@ nav ul li a{
 }
 
 .banner{
-    width: 100%;
-    max-width: 1340px;
+    width: 1150px;
     text-align: center;
     display: flex;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 50px;
 }
 .banner img{
-    width: 1140px;
+    width: 1150px;
     height: 700px;
     
 }
 /* Header part end */
 /* Feature part start */
 .feature{
-    width: 100%;
+    width: 1150px;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -112,20 +112,22 @@ nav ul li a{
     font-size: 45px;
     font-weight: 500;
     color: gray;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .feature-text h3 span{
     color: var(--main-color);
 }
 .feature-text p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 /* Feature part end */
 /* Love feature part start */
 .love-feature{
-    width: 1200px;
+    width: 1150px;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -139,12 +141,12 @@ nav ul li a{
     height: 100vh;
 }
 .love-feature-img{
-    width: 600px;
+    width: 550px;
     height: 100vh;
-    padding-right: 100px;
+    padding-right: 20px;
 }
 .love-feature-img img{
-    width: 500px;
+    width: 550px;
     height: 659px;
     border-radius: 5px;
     margin-right: 20px;
@@ -157,12 +159,16 @@ nav ul li a{
     padding-left: 10px;
     padding-bottom: 20px;
 }
+.text-parent p{
+    padding-top: 10px;
+}
 .text1{
     width: 95%;
     background-color: #FFFFFF;
     padding: 10px 0 20px 5px;
     border-radius: 5px;
 }
+
 .text2{
     padding: 5px 0 20px 5px;
 }
@@ -192,4 +198,78 @@ nav ul li a{
     font-size: 45px;
     font-weight: 700;
     color: #131313;
+}
+/* Facts section end */
+/* Award section start */
+.award{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.award-part{
+    height: 241.83055114746116px;
+    width: 241.83055114746116px;
+    left: 897.915283203125px;
+    top: 3663.084716796875px;
+    border-radius: 8px;
+    border: 1px solid var(--main-color);
+    padding-top: 60px;
+
+}
+.award-part:hover.award-part img{
+    width: 100px;
+    background-color: beige;
+}
+/* Award section end */
+/* Sponsors section start */
+.sponsors{
+    width: 1150px;
+    height: 200px;
+    margin: auto;
+}
+.sponsors-text{
+    text-align: center;
+}
+.sponsors-text h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    padding-bottom: 10px;
+}
+.sponsors-img{
+    padding: 50px;
+    margin-right: 10px;
+}
+/* Sponsors section end */
+/* Footer section start */
+
+footer .footer-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #131313;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .footer-part2 li{
+    list-style-type: none;
+}
+footer .footer-part a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.copyright-section{
+    width:1150px;
+    height: 100px;
+    text-align: center;
+    background-color: #FFF4E7;
+    margin: auto;
+    padding-top: 50px;
+}
+.footer-part3 h3{
+    padding-bottom: 10px;
 }
