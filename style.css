@@ -68,7 +68,8 @@ nav ul li a{
 }
 
 .banner{
-    width: 1150px;
+    width: 100%;
+    max-width: 1150px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -84,7 +85,8 @@ nav ul li a{
 /* Header part end */
 /* Feature part start */
 .feature{
-    width: 1150px;
+    width: 100%;
+    max-width: 1400px;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -100,11 +102,11 @@ nav ul li a{
     padding-top: 20px;
 }
 .feature-img img{
-    width: 342px;
+    width: 340px;
     height: 342px;
 }
 .feature-text{
-    width: 550px;
+    width: 530px;
     height: 100%;
     margin: 300px 30px 0 30px;
 }
@@ -127,7 +129,8 @@ nav ul li a{
 /* Feature part end */
 /* Love feature part start */
 .love-feature{
-    width: 1150px;
+    width: 100%;
+    max-width: 1150px;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -141,7 +144,7 @@ nav ul li a{
     height: 100vh;
 }
 .love-feature-img{
-    width: 550px;
+    width: 580px;
     height: 100vh;
     padding-right: 20px;
 }
@@ -191,7 +194,7 @@ nav ul li a{
 /* Facts section start */
 .facts{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1150px;
     margin: auto;
 }
 .facts h3{
@@ -226,7 +229,8 @@ nav ul li a{
 /* Award section end */
 /* Sponsors section start */
 .sponsors{
-    width: 1150px;
+    width: 100%;
+    max-width: 1150px;
     height: 200px;
     margin: auto;
 }
@@ -272,4 +276,44 @@ footer .footer-part a{
 }
 .footer-part3 h3{
     padding-bottom: 10px;
+}
+/* Footer section end */
+/* Responsive part start */
+@media only screen and (max-width: 576px){
+    nav{
+        justify-content: center;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav h1{
+        font-size: 25px;
+    }
+    .header-text h2{
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .banner{
+        flex-direction: column;
+        width: 400px;
+    }
+    .banner img{
+        width: 100%;
+        height: 400px;
+    }
+    .feature{
+        flex-direction: column;
+    }
+    .feature-img{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .love-feature{
+        flex-direction: column;
+    }
+    .text-parent h3{
+        font-size: 25px;
+    }
+    
 }
