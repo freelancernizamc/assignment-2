@@ -179,9 +179,9 @@ nav ul li a{
     position: absolute;
     width: 242px;
     height: 180px;
-    left: 780px;
-    top: 2720px;
-    margin-top: -50px;
+    left: 790px;
+    top: 2735px;
+    margin-top: -55px;
     padding-bottom: 20px;
 }
     
@@ -281,7 +281,7 @@ footer .footer-part a{
 /* Responsive part start */
 @media only screen and (max-width: 576px){
     header{
-        max-width: 576px;
+        width: 576px;
     }
     nav{
         justify-content: center;
@@ -299,14 +299,14 @@ footer .footer-part a{
     }
     .banner{
         flex-direction: column;
-        max-width: 576px;
+        width: 576px;
     }
     .banner img{
-        width: 100%;
+        width: 500px;
         height: 400px;
     }
     .feature{
-        max-width: 576px;
+        width: 576px;
         height: 576px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -316,7 +316,7 @@ footer .footer-part a{
     .feature-text{
         width: 50%;
         height: 500px;
-        position:absolute;
+        position: relative;
     }
     .feature-text h3{
         font-size: 25px;
@@ -330,14 +330,14 @@ footer .footer-part a{
         
     }
     .feature-img img{
-        width: 300px;
+        width: 350px;
     }
     .text-parent h3{
         padding-top: 400px;
     }
     .love-feature{
         padding-top: 100px;
-        max-width: 576px;
+        width: 576px;
         height: 600px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -350,8 +350,8 @@ footer .footer-part a{
         
     }
     .love-feature-img{
-        width: 400px;
-        height: 100vh;
+        width: 300px;
+        height: 400px;
     }
     .love-feature-img img{
         width: 500px;
@@ -375,7 +375,7 @@ footer .footer-part a{
     }
     .facts{
         width: 576px;
-        padding-top: 460px;
+        padding-top: 350px;
     }
     .facts h3{
         font-size: 25px;
@@ -385,7 +385,7 @@ footer .footer-part a{
     }
     .award{
         padding-top: 50px;
-        max-width: 576px;
+        width: 576px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         grid-column: 1;
@@ -417,3 +417,4 @@ footer .footer-part a{
     }
     
 }
+/* The End */
